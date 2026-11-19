@@ -1,0 +1,27 @@
+name: Bug
+description: 오류, 비정상 동작 또는 회귀 문제 신고
+title: "[Bug] "
+body:
+  - type: textarea
+    id: actual
+    attributes:
+      label: 실제 동작
+      description: 오류 메시지가 있다면 함께 적어주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 기대한 동작
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 방법
+      placeholder: 입력, 실행 순서, 발생 조건을 기록해 주세요.
+  - type: textarea
+    id: environment
+    attributes:
+      label: 실행 환경 및 관련 로그
+      description: 비밀키, 토큰, 개인정보는 포함하지 마세요.
