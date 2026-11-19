@@ -1,0 +1,28 @@
+name: Experiment
+description: 재현 가능한 실험 설계, 검증 및 비교
+title: "[Experiment] "
+body:
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: 검증할 가설 또는 질문
+    validations:
+      required: true
+  - type: textarea
+    id: baseline
+    attributes:
+      label: 실험 구성 및 기준선
+      description: 데이터, 학습 또는 실행 조건, 비교 대상
+    validations:
+      required: true
+  - type: textarea
+    id: metrics
+    attributes:
+      label: 평가 지표 및 성공 조건
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: 결과, 해석 및 다음 단계
+      description: 실험 후 업데이트할 항목
