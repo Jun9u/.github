@@ -1,6 +1,7 @@
 name: Research
 description: 구현 전에 검토해야 할 기술, 데이터, 방법론 조사
 title: "[Research] "
+type: Research
 body:
   - type: textarea
     id: question
