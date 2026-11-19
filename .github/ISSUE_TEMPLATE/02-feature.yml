@@ -1,6 +1,7 @@
 name: Feature
 description: 새로운 기능 또는 명확한 기능 개선 제안
 title: "[Feature] "
+type: Feature
 body:
   - type: textarea
     id: problem
