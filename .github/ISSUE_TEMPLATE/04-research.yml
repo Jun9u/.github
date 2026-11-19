@@ -1,0 +1,26 @@
+name: Research
+description: 구현 전에 검토해야 할 기술, 데이터, 방법론 조사
+title: "[Research] "
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: 조사할 질문
+      description: 이 조사로 어떤 결정을 내려야 하나요?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: 조사 범위 및 출처
+  - type: textarea
+    id: deliverable
+    attributes:
+      label: 예상 결과물
+      description: 선택안, 비교표, 자료 목록, 타당성 판단 등
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: 제약 및 참고 사항
