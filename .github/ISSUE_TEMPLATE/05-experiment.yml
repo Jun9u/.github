@@ -1,6 +1,7 @@
 name: Experiment
 description: 재현 가능한 실험 설계, 검증 및 비교
 title: "[Experiment] "
+type: Experiment
 body:
   - type: textarea
     id: hypothesis
