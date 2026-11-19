@@ -1,0 +1,27 @@
+name: Feature
+description: 새로운 기능 또는 명확한 기능 개선 제안
+title: "[Feature] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 해결할 문제
+      description: 어떤 사용자나 작업의 문제가 있나요?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: 제안하는 기능
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: 수용 조건
+      value: |
+        - [ ] 
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 대안 및 고려 사항
