@@ -1,6 +1,7 @@
 name: Task
 description: 구현, 정리, 개선 등 완료 조건이 있는 일반 작업
 title: "[Task] "
+type: Task
 body:
   - type: textarea
     id: goal
